@@ -1,0 +1,168 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+.invoice{
+        background-color:white;
+        width:800px;
+        height:1150px;
+        margin:20px auto;
+        position:relative;
+}
+.top-sec{
+    background-color:rgba(245, 239, 239, 0.905);
+    width:100%;
+    height:300px;
+    
+}
+.inner-top{
+    width:100%;
+    height:40px;
+    background-color:rgb(194, 99, 65);
+}
+img{
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    margin-top:50px;
+    margin-left:40px;
+}
+.left-column h2{
+    color:grey;
+   position:absolute;
+   top:50px;
+   left:120px;
+}
+.address{
+   color:gray;
+   position:absolute;
+   top:90px;
+   left:120px;
+}
+.contact{
+   color:gray;
+   position:absolute;
+   top:150px;
+   left:120px;
+}
+.right-column{
+    position:absolute;
+    top:90px;
+    right:40px;
+    width:300px;
+    height:200px;
+    border:1px solid black;
+    border:none;
+
+}
+.right-column h2{
+    padding-left:40px;;
+}
+.right-column p{
+    text-align:center;
+    font-size:12px;
+}
+.billto{
+    position:absolute;
+    top:320px;
+    left:30px;
+    width:320px;
+    height:200px;
+    border:1px solid black;
+    font-size:12px;
+    border:none;
+}
+.pay i{
+    position:absolute;
+    top:310px;
+    right:70px;
+    font-size:11px;
+}
+.shipto{
+    position:absolute;
+    top:320px;
+    right:50px;
+    width:320px;
+    height:200px;
+    border:1px solid black;
+    font-size:12px;
+    border:none;
+}
+.table{
+    position:absolute;
+    top:500px;
+    width:100%;
+    left:30px;
+
+}
+.table table,th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+    padding:10px;
+    font-size:12px;
+}
+.table td{
+    border:none;
+    border-right: 1px solid black;
+}
+.table table{
+    width:90%;
+}
+.table th{
+    background-color:rgb(194, 99, 65);
+    color:white;
+    text-align:center;
+}
+.table tr:nth-child(odd){
+    background-color:rgba(245, 239, 239, 0.905);
+    border:none;
+}
+.table tr:nth-child(even){
+    background-color:white;
+    border:none;
+}
+.table tr:hover{
+    cursor:pointer;
+}
+.remarks p{
+    position:absolute;
+    bottom:330px;
+    left:40px;
+    font-size:14px;
+}
+.total{
+    position:absolute;
+    bottom:120px;
+    right:50px;
+    font-size:12px;
+}
+.total table,th,td{
+    border:1px solid balck;
+    border-collapse:collapse;
+    padding:10px;
+    font-size:12px;
+    text-align:right;
+}
+.total td{
+    padding-left:110px;
+    border-right:none;
+    border-left:none;
+}
+.total table td{
+    border-top:none;
+}
+.total table tr:last-of-type td{
+    background-color:rgb(97, 190, 97);
+}
+.total th{
+    padding-left:20px;
+    border:none;
+}
+.bottom{
+    position:absolute;
+    bottom:2px;
+    width:100%;
+    height:40px;
+    background-color:rgb(194, 99, 65);
+}
